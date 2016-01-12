@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("ul#user").prepend("<li>Hello!</li>");
     $("ul#webpage").prepend("<li>Mahalo!</li>");
 
-    $("ul").children("li").first().click(function () {
+    $("ul#user").children("li").first().click(function () {
       $(this).remove();
     })
   });
